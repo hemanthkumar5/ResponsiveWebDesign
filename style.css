@@ -1,0 +1,40 @@
+img  {
+  height: 300px;
+  width: :1s00px;
+  border: 2px;
+
+}
+
+
+.sub1{
+  border: 2px solid #ddd;
+  margin: 2%;
+  padding :1%;
+  text-align: center;
+}
+.main{
+  display: flex;
+  border:  solid black;
+}
+
+
+@media only screen and (max-width: 450px){
+
+.main{
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+  .main{
+    border: 2px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: column-reverse;
+  }
+
+}
